@@ -52,8 +52,8 @@ ChurchCRM uses two separate images: the **church logo** shown in the application
 
 Upload the logo from **Admin → Church Information**. The **Church Logo** card shows the current image with **Upload** and **Remove** buttons — no file transfer is needed, and the uploaded logo survives upgrades.
 
-- Accepted formats: PNG, JPG, GIF or WebP (not SVG). A wide banner of roughly 3.5:1, for example 700×200 pixels, works best; a transparent PNG is preferred.
-- The image is scaled down to fit 1200×400 and stored as `Images/church-logo.png`.
+- Accepted formats: PNG, JPG, GIF or WebP (not SVG), picked from a file of up to 50 MB (no webcam option). A wide banner of roughly 3.5:1, for example 700×200 pixels, works best; a transparent PNG is preferred.
+- The browser scales the image down to fit 1200×400 before uploading it (the server limit is 16 megapixels), and it is stored as `Images/church-logo.png`.
 - Once uploaded, it replaces the ChurchCRM branding in the sidebar (the church name text beside it is hidden), on the login page and the password-reset, two-factor, error, limited-access and change-password pages, and in emails.
 
 See [First Run Configuration](/getting-started/first-run#church-logo) for a screenshot. The older `sChurchLogoURL` setting is now only a fallback for emails when no logo has been uploaded; the application pages ignore it.

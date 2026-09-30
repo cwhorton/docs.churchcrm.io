@@ -40,11 +40,11 @@ Directly below the church name fields is the **Church Logo** card. Uploading a l
 
 ![Church Logo card on the Church Information page, showing the current logo with Upload and Remove buttons](/img/getting-started/church-logo-card.png)
 
-1. Click **Upload** and choose an image. PNG, JPG, GIF or WebP are accepted (not SVG). A wide banner of roughly 3.5:1 — for example 700×200 pixels — works best, and a transparent PNG looks best on the coloured login page.
+1. Click **Upload** and choose an image file (there is no webcam option for the logo). PNG, JPG, GIF or WebP are accepted (not SVG), and the file you pick can be up to 50 MB, so a photo straight from a phone works. A wide banner of roughly 3.5:1 — for example 700×200 pixels — works best, and a transparent PNG looks best on the coloured login page.
 2. The image editor opens; adjust the crop if you like and click **Save**, then click **Upload 1 file**. The preview, the sidebar and the login page update immediately; there is nothing else to save.
 3. To go back to the default ChurchCRM branding, click **Remove**.
 
-The image is scaled down to fit 1200×400 pixels and stored as `Images/church-logo.png`. It is kept across upgrades and is ignored by the file-integrity check.
+Your browser scales the image down to fit 1200×400 pixels before it is uploaded; the server accepts images of at most 16 megapixels (for example 4000×4000). The logo is stored as `Images/church-logo.png`. It is kept across upgrades and is ignored by the file-integrity check.
 
 | Sidebar | Login page |
 |---------|------------|
