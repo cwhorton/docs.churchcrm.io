@@ -75,6 +75,6 @@ It may be tempting to simply upload your own artwork and rename the files as abo
    ```scp my_fancy_letterhead.jpg user@hostingprovider:ChurchCRM/Images```
 4. Log in to ChurchCRM with an admin account.
 5. Go to **Admin** → **Edit General Settings** → **Report Settings**.
-6. Set **sDirLetterHead** to `../Images/<your_file_name>` and click **Save Settings**.
+6. Set **bDirLetterHead** to `../Images/<your_file_name>` and click **Save Settings**.
 
    Replace `<your_file_name>` with the image you uploaded in step 3.
