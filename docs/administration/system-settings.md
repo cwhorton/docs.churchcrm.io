@@ -122,13 +122,13 @@ Language, timezone, date/time formats, and phone number formats have moved to a 
 
 ## Map Settings
 
-ChurchCRM uses **Leaflet + Nominatim (OpenStreetMap)** — no API key is required.
+ChurchCRM uses **Leaflet** with **Nominatim (OpenStreetMap)** and the **US Census Bureau** geocoder — no API key is required.
 
 | Setting | Description |
 |---------|-------------|
 | Map default center | Latitude/longitude used when no address is geocoded yet |
 | Map default zoom | Starting zoom level on family/group maps |
-| Geocoding provider | Nominatim (default, no key required) |
+| Geocoding services | Ranked, comma-separated list of keyless geocoders (default `Nominatim, Census`) |
 
 See [Maps & Geocoding](./maps-and-geocoding.md) for full details.
 
